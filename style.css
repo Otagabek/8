@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fon {
+    background-image: linear-gradient(45deg, rgb(190, 190, 62), rgb(8, 173, 52));
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.umumiy {
+    padding: 50px;
+    width: 500px;
+    border: 2px solid red;
+    height: 80vh;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgb(8, 173, 52);
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.email {
+    display: block;
+    width: 400px;
+    height: 60px;
+    padding-left: 170px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.password {
+    display: block;
+    width: 400px;
+    height: 60px;
+    padding-bottom: 10px;
+    padding-left: 160px;
+}
+
+.checkbox {
+    display: flex;
+    /* padding-left: 110px; */
+    text-align: center;
+}
+ 
+button {
+    margin-top: 30px;
+    margin-left: 130px;
+    border-radius: 10px;
+    width: 130px;
+    height: 50px;
+}
+
+p {
+    display: flex;
+    padding-top: 30px;
+    margin-left: 95px;
+}
+
+.gap {
+    display: flex;
+    margin-left: 10px;
+} 
